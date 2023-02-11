@@ -1,0 +1,4 @@
+marque;modele;annee;kilometrage;couleur;carburant
+Peugeot;208;2012;50000;rouge;essence
+Peugeot;3008;2015;57000;verte;Diesel
+Citroen;Cactus;2015;98000;noire;Diesel
