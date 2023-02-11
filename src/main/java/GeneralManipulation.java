@@ -17,11 +17,23 @@ public class GeneralManipulation {
     }
 
     public String getSeparator(String stringValue)
+
+
     {
         Scanner sc = new Scanner(stringValue);
         String delimiter = sc.delimiter().toString();
         return "test";
     }
 
-        
+    /**
+     * This method returns the ascii code of a character
+     * @param stringValue
+     * @return
+     */
+    public int getAsciiCode(String stringValue)
+    {
+        char c = stringValue.charAt(0);
+        return (int) c;
+    }
+
 }

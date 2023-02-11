@@ -7,6 +7,8 @@ public class GeneralClass {
 
         GeneralManipulation generalManipulation = new GeneralManipulation();
         //generalManipulation.getSeparator("src/test/resources/test.txt");
+        int asciiCode = generalManipulation.getAsciiCode(";");
+
 
         String firstLine = generalManipulation.getFirstLine("src/test/resources/test.txt");
         String delimiter = generalManipulation.getSeparator(firstLine);
